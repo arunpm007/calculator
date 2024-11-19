@@ -36,20 +36,22 @@ dependencies:
 ```
 
 ## File Structure
-.
-├── lib
-│   └── main.dart       # Contains the main logic and UI of the calculator app
-└── pubspec.yaml        # Contains project metadata and dependencies
-
+```
+  .
+  ├── lib
+  │   └── main.dart       # Contains the main logic and UI of the calculator app
+  └── pubspec.yaml        # Contains project metadata and dependencies
+```
 
 ## Running the App
 
 1. Clone or download the project.
 2. Navigate to the project folder.
 3. Run the following commands:
+```
      flutter pub get
      flutter run
-
+```
 
 ## Conclusion
 
