@@ -150,7 +150,7 @@ onButtonClick(value) {
       Expression expression = p.parse(userInput);
       ContextModel cm = ContextModel();
       var finalValue = expression.evaluate(EvaluationType.REAL, cm);
-      output = '=' + _formatOutput(finalValue.toString());
+      output = '=${_formatOutput(finalValue.toString())}';
       if (output.endsWith('.0')) {
         output = output.substring(0, output.length - 2);
       }
@@ -203,12 +203,12 @@ onButtonClick(value) {
       body: SafeArea(
         child: Container(
           color: Colors.white,
-          padding: EdgeInsets.all(8),
+          padding: const EdgeInsets.all(8),
           child: Column(
             children: <Widget>[
               Expanded(
                 child: Container(
-                  padding: EdgeInsets.all(16),
+                  padding: const EdgeInsets.all(16),
                   width: double.infinity,
                   child: Column(
                     //mainAxisAlignment: MainAxisAlignment.end,
