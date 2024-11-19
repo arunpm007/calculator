@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
   var output = '0';
   var textIOColorIP = Colors.black;
   var textIOColorOP = Colors.black;
-  var operatorList = ['^', '÷', '*', '-', '+', '!'];
+  var operatorList = ['^', '÷', '*', '-', '+', '!', '/'];
 
   var operation = '';
   var outputSize = 52.0;
